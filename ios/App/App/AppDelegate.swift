@@ -1,13 +1,20 @@
 import UIKit
 import Capacitor
+import AppCenter
+import AppCenterAnalytics
+import AppCenterCrashes
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
   var window: UIWindow?
 
-
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+
+    AppCenter . start ( withAppSecret :  "038b8eb2-545c-4e36-9fc2-8a3b78311c24" , services : [ 
+      Analytics . self , 
+      Crashes . self 
+    ] )
     // Override point for customization after application launch.
     return true
   }
