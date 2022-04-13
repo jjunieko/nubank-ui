@@ -34,7 +34,7 @@ export class HomePage {
   }
 
   public options: Array<any> = [
-    { icon: 'person-add-outline', text: 'Indicar amigos' },
+    { icon: 'person-add-outline', text: 'Indicar amigos'},
     { icon: 'phone-portrait-outline', text: 'Recarga de celular' },
     { icon: 'wallet-outline', text: 'Depositar' },
     { icon: 'options-outline', text: 'Ajustar limite' },

@@ -13,11 +13,14 @@ ion-header {
 
       span {
         font-size: 22px;
+        transition: ease 0.9s;
       }
 
       ion-button {
         display: block;
         background: transparent;
+        
+
       }
     }
   }
@@ -129,6 +132,8 @@ ion-footer {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      border-radius: 8px;
+    
 
       ion-icon {
         font-size: 24px;
@@ -142,5 +147,5 @@ ion-footer {
 }
 
 .opacity-transition{
-  transition: opacity 0.3s;
+  transition: opacity 0.5s;
 }
